@@ -24,12 +24,14 @@
 	"description": "The NPM library to implement Ionic in any Svelte project - supporting SvelteKit and Svelte with Vite",
 	"scripts": {
 		"lint": "prettier  --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"dev": "vite"
 	},
 	"type": "module",
 	"devDependencies": {
 		"prettier-plugin-svelte": "^3.2.6",
-		"svelte": "^4.0.5"
+		"svelte": "^4.0.5",
+		"vite": "^5.4.6"
 	},
 	"dependencies": {
 		"@ionic/core": "^8.2.2",
